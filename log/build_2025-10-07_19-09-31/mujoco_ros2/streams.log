@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yahia/Documents/GitHub/robotics/src/mujoco_ros2 -DCMAKE_INSTALL_PREFIX=/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2
+[0.376s] -- The C compiler identification is GNU 13.3.0
+[0.687s] -- The CXX compiler identification is GNU 13.3.0
+[0.725s] -- Detecting C compiler ABI info
+[0.889s] -- Detecting C compiler ABI info - done
+[0.908s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.909s] -- Detecting C compile features
+[0.911s] -- Detecting C compile features - done
+[0.934s] -- Detecting CXX compiler ABI info
+[1.272s] -- Detecting CXX compiler ABI info - done
+[1.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.297s] -- Detecting CXX compile features
+[1.298s] -- Detecting CXX compile features - done
+[1.325s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.325s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.325s]   has asked CMake to find a package configuration file provided by
+[1.326s]   "ament_cmake", but CMake did not find one.
+[1.326s] 
+[1.326s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.326s]   any of the following names:
+[1.326s] 
+[1.326s]     ament_cmakeConfig.cmake
+[1.326s]     ament_cmake-config.cmake
+[1.326s] 
+[1.327s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.327s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.327s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.327s]   has been installed.
+[1.327s] 
+[1.327s] [0m
+[1.327s] -- Configuring incomplete, errors occurred!
+[1.331s] Invoked command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yahia/Documents/GitHub/robotics/src/mujoco_ros2 -DCMAKE_INSTALL_PREFIX=/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2

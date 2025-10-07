@@ -1,0 +1,1 @@
+/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2/ament_cmake_environment_hooks/local_setup.zsh

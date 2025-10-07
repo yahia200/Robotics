@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000278] (mujoco_ros2) JobQueued: {'identifier': 'mujoco_ros2', 'dependencies': OrderedDict()}
+[0.000339] (mujoco_ros2) JobStarted: {'identifier': 'mujoco_ros2'}
+[0.009903] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'cmake'}
+[0.010691] (mujoco_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/yahia/Documents/GitHub/robotics/src/mujoco_ros2', '-DCMAKE_INSTALL_PREFIX=/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2'], 'cwd': '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', 'env': OrderedDict({'PROFILEHOME': '', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'LC_TIME': 'en_US.UTF-8', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'USER': 'yahia', 'XDG_SEAT': 'seat0', 'STARSHIP_SHELL': 'fish', 'XDG_SESSION_TYPE': 'x11', 'SSH_AGENT_PID': '1660', 'KONSOLE_VERSION': '230805', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'HOME': '/home/yahia', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'DESKTOP_SESSION': 'plasma', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/yahia/.gtkrc:/home/yahia/.config/gtkrc', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SHELL_SESSION_ID': '6e0e5d7c34f443afaf422a89a6b6d567', 'nvm_current_version': 'v22.20.0', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1493', 'SYSTEMD_EXEC_PID': '2055', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'NVM_DIR': '/home/yahia/.nvm', 'IM_CONFIG_PHASE': '1', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yahia', 'WINDOWID': '58720269', 'JOURNAL_STREAM': '9:15844', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.konsole@autostart.service/memory.pressure', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/yahia/.gtkrc-2.0:/home/yahia/.config/gtkrc-2.0', 'PATH': '/home/yahia/.local/bin:/home/yahia/.local/share/nvm/v22.20.0/bin:/home/yahia/.local/bin:/home/yahia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '61e25599af5248b0a4461a9e58d859fb', 'SESSION_MANAGER': 'local/YLT:@/tmp/.ICE-unix/1789,unix/YLT:/tmp/.ICE-unix/1789', 'LC_ADDRESS': 'en_US.UTF-8', 'XCURSOR_THEME': 'Dracula-cursors', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'ICEAUTHORITY': '/run/user/1000/iceauth_xTcGbB', 'DISPLAY': ':0', 'LC_TELEPHONE': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LANG': 'en_US.UTF-8', 'XAUTHORITY': '/tmp/xauth_evZSjq', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'SSH_AUTH_SOCK': '/tmp/ssh-Zg76lQu3NmMo/agent.1534', 'SHELL': '/usr/bin/fish', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'en_US.UTF-8', 'KONSOLE_DBUS_SERVICE': ':1.79', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_CONFIG_DIRS': '/home/yahia/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'STARSHIP_SESSION_KEY': '2762218463385181', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'NVM_RC_VERSION': ''}), 'shell': False}
+[0.099244] (-) TimerEvent: {}
+[0.199890] (-) TimerEvent: {}
+[0.300474] (-) TimerEvent: {}
+[0.375598] (mujoco_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.400635] (-) TimerEvent: {}
+[0.501243] (-) TimerEvent: {}
+[0.601881] (-) TimerEvent: {}
+[0.687099] (mujoco_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.702037] (-) TimerEvent: {}
+[0.724926] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802168] (-) TimerEvent: {}
+[0.888912] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.902249] (-) TimerEvent: {}
+[0.908192] (mujoco_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.909304] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.910755] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.933722] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002470] (-) TimerEvent: {}
+[1.103065] (-) TimerEvent: {}
+[1.203832] (-) TimerEvent: {}
+[1.272417] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.296505] (mujoco_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.297006] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.297860] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.304045] (-) TimerEvent: {}
+[1.325096] (mujoco_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[1.325544] (mujoco_ros2) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.325722] (mujoco_ros2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.325851] (mujoco_ros2) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.325970] (mujoco_ros2) StderrLine: {'line': b'\n'}
+[1.326088] (mujoco_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.326206] (mujoco_ros2) StderrLine: {'line': b'  any of the following names:\n'}
+[1.326348] (mujoco_ros2) StderrLine: {'line': b'\n'}
+[1.326472] (mujoco_ros2) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.326587] (mujoco_ros2) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.326705] (mujoco_ros2) StderrLine: {'line': b'\n'}
+[1.326820] (mujoco_ros2) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.326935] (mujoco_ros2) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.327049] (mujoco_ros2) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.327164] (mujoco_ros2) StderrLine: {'line': b'  has been installed.\n'}
+[1.327294] (mujoco_ros2) StderrLine: {'line': b'\n'}
+[1.327427] (mujoco_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.327544] (mujoco_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.331419] (mujoco_ros2) CommandEnded: {'returncode': 1}
+[1.364898] (mujoco_ros2) JobEnded: {'identifier': 'mujoco_ros2', 'rc': 1}
+[1.375882] (-) EventReactorShutdown: {}

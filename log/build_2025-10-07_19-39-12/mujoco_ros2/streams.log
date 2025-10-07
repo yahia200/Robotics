@@ -1,0 +1,43 @@
+[0.030s] Invoking command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yahia/Documents/GitHub/robotics/src/mujoco_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2
+[0.086s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.652s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.700s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.777s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.801s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.089s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.095s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.428s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.780s] -- Configuring done (1.7s)
+[1.811s] -- Generating done (0.0s)
+[1.818s] -- Build files have been written to: /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2
+[1.830s] Invoked command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yahia/Documents/GitHub/robotics/src/mujoco_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2
+[1.832s] Invoking command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2 -- -j8 -l8
+[1.951s] [ 33%] [32m[1mLinking CXX executable mujoco_node[0m
+[2.788s] [100%] Built target mujoco_node
+[2.807s] Invoked command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2 -- -j8 -l8
+[2.826s] Invoking command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2
+[2.843s] -- Install configuration: ""
+[2.845s] -- Execute custom install script
+[2.845s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node
+[2.869s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/launch/example.py
+[2.905s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/scene.xml
+[2.940s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/two_link_planar.xml
+[2.974s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2
+[3.009s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2
+[3.044s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.sh
+[3.076s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.dsv
+[3.097s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/path.sh
+[3.112s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/path.dsv
+[3.129s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.bash
+[3.145s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.sh
+[3.161s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.zsh
+[3.177s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.dsv
+[3.193s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/package.dsv
+[3.208s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/packages/mujoco_ros2
+[3.224s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config.cmake
+[3.240s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config-version.cmake
+[3.258s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/package.xml
+[3.280s] Invoked command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2

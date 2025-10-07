@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.000964] (mujoco_ros2) JobQueued: {'identifier': 'mujoco_ros2', 'dependencies': OrderedDict()}
+[0.001039] (mujoco_ros2) JobStarted: {'identifier': 'mujoco_ros2'}
+[0.022443] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'cmake'}
+[0.024334] (mujoco_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/yahia/Documents/GitHub/robotics/src/mujoco_ros2', '-DCMAKE_INSTALL_PREFIX=/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2'], 'cwd': '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'yahia', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'en_US.UTF-8', 'XDG_SEAT': 'seat0', 'STARSHIP_SHELL': 'fish', 'SSH_AGENT_PID': '1660', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/yahia/mujoco/lib::/home/yahia/mujoco/bin', 'HOME': '/home/yahia', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '6e0e5d7c34f443afaf422a89a6b6d567', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/yahia/.gtkrc:/home/yahia/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'en_US.UTF-8', 'nvm_current_version': 'v22.20.0', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '1493', 'SYSTEMD_EXEC_PID': '2055', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'NVM_DIR': '/home/yahia/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yahia', 'WINDOWID': '58720269', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:15844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.konsole@autostart.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/yahia/.gtkrc-2.0:/home/yahia/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/home/yahia/.local/bin:/home/yahia/.local/share/nvm/v22.20.0/bin:/home/yahia/.local/bin:/home/yahia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/YLT:@/tmp/.ICE-unix/1789,unix/YLT:/tmp/.ICE-unix/1789', 'INVOCATION_ID': '61e25599af5248b0a4461a9e58d859fb', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'Dracula-cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_xTcGbB', 'MUJOCO_PY_MUJOCO_PATH': '/home/yahia/mujoco', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_evZSjq', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-Zg76lQu3NmMo/agent.1534', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/fish', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.79', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/yahia/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'STARSHIP_SESSION_KEY': '2762218463385181', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.063064] (mujoco_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099713] (-) TimerEvent: {}
+[0.200276] (-) TimerEvent: {}
+[0.300839] (-) TimerEvent: {}
+[0.401107] (-) TimerEvent: {}
+[0.437897] (mujoco_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.501262] (-) TimerEvent: {}
+[0.601606] (-) TimerEvent: {}
+[0.695526] (mujoco_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.701828] (-) TimerEvent: {}
+[0.802451] (-) TimerEvent: {}
+[0.865342] (mujoco_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.902612] (-) TimerEvent: {}
+[0.904427] (mujoco_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.955722] (mujoco_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.002842] (-) TimerEvent: {}
+[1.041869] (mujoco_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103111] (-) TimerEvent: {}
+[1.203769] (-) TimerEvent: {}
+[1.304439] (-) TimerEvent: {}
+[1.362509] (mujoco_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.370282] (mujoco_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.404585] (-) TimerEvent: {}
+[1.504913] (-) TimerEvent: {}
+[1.547763] (mujoco_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.605141] (-) TimerEvent: {}
+[1.620735] (mujoco_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.692588] (mujoco_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.705238] (-) TimerEvent: {}
+[1.805607] (-) TimerEvent: {}
+[1.889147] (mujoco_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.905756] (-) TimerEvent: {}
+[2.006127] (-) TimerEvent: {}
+[2.106480] (-) TimerEvent: {}
+[2.206962] (-) TimerEvent: {}
+[2.258085] (mujoco_ros2) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.282726] (mujoco_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.291579] (mujoco_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2\n'}
+[2.307137] (-) TimerEvent: {}
+[2.310803] (mujoco_ros2) CommandEnded: {'returncode': 0}
+[2.312289] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'build'}
+[2.314522] (mujoco_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', '--', '-j8', '-l8'], 'cwd': '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'yahia', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'en_US.UTF-8', 'XDG_SEAT': 'seat0', 'STARSHIP_SHELL': 'fish', 'SSH_AGENT_PID': '1660', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/yahia/mujoco/lib::/home/yahia/mujoco/bin', 'HOME': '/home/yahia', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '6e0e5d7c34f443afaf422a89a6b6d567', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/yahia/.gtkrc:/home/yahia/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'en_US.UTF-8', 'nvm_current_version': 'v22.20.0', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '1493', 'SYSTEMD_EXEC_PID': '2055', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'NVM_DIR': '/home/yahia/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yahia', 'WINDOWID': '58720269', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:15844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.konsole@autostart.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/yahia/.gtkrc-2.0:/home/yahia/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/home/yahia/.local/bin:/home/yahia/.local/share/nvm/v22.20.0/bin:/home/yahia/.local/bin:/home/yahia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/YLT:@/tmp/.ICE-unix/1789,unix/YLT:/tmp/.ICE-unix/1789', 'INVOCATION_ID': '61e25599af5248b0a4461a9e58d859fb', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'Dracula-cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_xTcGbB', 'MUJOCO_PY_MUJOCO_PATH': '/home/yahia/mujoco', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_evZSjq', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-Zg76lQu3NmMo/agent.1534', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/fish', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.79', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/yahia/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'STARSHIP_SESSION_KEY': '2762218463385181', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.407328] (-) TimerEvent: {}
+[2.508027] (-) TimerEvent: {}
+[2.524311] (mujoco_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o\x1b[0m\n'}
+[2.526339] (mujoco_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o\x1b[0m\n'}
+[2.608215] (-) TimerEvent: {}
+[2.708872] (-) TimerEvent: {}
+[2.809187] (-) TimerEvent: {}
+[2.909529] (-) TimerEvent: {}
+[3.009904] (-) TimerEvent: {}
+[3.110276] (-) TimerEvent: {}
+[3.210625] (-) TimerEvent: {}
+[3.310982] (-) TimerEvent: {}
+[3.411291] (-) TimerEvent: {}
+[3.511640] (-) TimerEvent: {}
+[3.612029] (-) TimerEvent: {}
+[3.712396] (-) TimerEvent: {}
+[3.812813] (-) TimerEvent: {}
+[3.913169] (-) TimerEvent: {}
+[4.013617] (-) TimerEvent: {}
+[4.114088] (-) TimerEvent: {}
+[4.214505] (-) TimerEvent: {}
+[4.314954] (-) TimerEvent: {}
+[4.415364] (-) TimerEvent: {}
+[4.515788] (-) TimerEvent: {}
+[4.616246] (-) TimerEvent: {}
+[4.716678] (-) TimerEvent: {}
+[4.817135] (-) TimerEvent: {}
+[4.917616] (-) TimerEvent: {}
+[5.018070] (-) TimerEvent: {}
+[5.118479] (-) TimerEvent: {}
+[5.218898] (-) TimerEvent: {}
+[5.319363] (-) TimerEvent: {}
+[5.419786] (-) TimerEvent: {}
+[5.520233] (-) TimerEvent: {}
+[5.620653] (-) TimerEvent: {}
+[5.721073] (-) TimerEvent: {}
+[5.821489] (-) TimerEvent: {}
+[5.921905] (-) TimerEvent: {}
+[6.022363] (-) TimerEvent: {}
+[6.122779] (-) TimerEvent: {}
+[6.223186] (-) TimerEvent: {}
+[6.323597] (-) TimerEvent: {}
+[6.424044] (-) TimerEvent: {}
+[6.524473] (-) TimerEvent: {}
+[6.624919] (-) TimerEvent: {}
+[6.725367] (-) TimerEvent: {}
+[6.825784] (-) TimerEvent: {}
+[6.926224] (-) TimerEvent: {}
+[7.026661] (-) TimerEvent: {}
+[7.127105] (-) TimerEvent: {}
+[7.227523] (-) TimerEvent: {}
+[7.327999] (-) TimerEvent: {}
+[7.428512] (-) TimerEvent: {}
+[7.528952] (-) TimerEvent: {}
+[7.629316] (-) TimerEvent: {}
+[7.729711] (-) TimerEvent: {}
+[7.830137] (-) TimerEvent: {}
+[7.930593] (-) TimerEvent: {}
+[8.031012] (-) TimerEvent: {}
+[8.131402] (-) TimerEvent: {}
+[8.231835] (-) TimerEvent: {}
+[8.332295] (-) TimerEvent: {}
+[8.432730] (-) TimerEvent: {}
+[8.533141] (-) TimerEvent: {}
+[8.633542] (-) TimerEvent: {}
+[8.733882] (-) TimerEvent: {}
+[8.834246] (-) TimerEvent: {}
+[8.934583] (-) TimerEvent: {}
+[9.034919] (-) TimerEvent: {}
+[9.135277] (-) TimerEvent: {}
+[9.235616] (-) TimerEvent: {}
+[9.335954] (-) TimerEvent: {}
+[9.436329] (-) TimerEvent: {}
+[9.536726] (-) TimerEvent: {}
+[9.637100] (-) TimerEvent: {}
+[9.737537] (-) TimerEvent: {}
+[9.837977] (-) TimerEvent: {}
+[9.938368] (-) TimerEvent: {}
+[10.038753] (-) TimerEvent: {}
+[10.140059] (-) TimerEvent: {}
+[10.240520] (-) TimerEvent: {}
+[10.340863] (-) TimerEvent: {}
+[10.441219] (-) TimerEvent: {}
+[10.541567] (-) TimerEvent: {}
+[10.641935] (-) TimerEvent: {}
+[10.742293] (-) TimerEvent: {}
+[10.842651] (-) TimerEvent: {}
+[10.943011] (-) TimerEvent: {}
+[11.043359] (-) TimerEvent: {}
+[11.143713] (-) TimerEvent: {}
+[11.244104] (-) TimerEvent: {}
+[11.344442] (-) TimerEvent: {}
+[11.444781] (-) TimerEvent: {}
+[11.545103] (-) TimerEvent: {}
+[11.645450] (-) TimerEvent: {}
+[11.745857] (-) TimerEvent: {}
+[11.846210] (-) TimerEvent: {}
+[11.946559] (-) TimerEvent: {}
+[12.046918] (-) TimerEvent: {}
+[12.147275] (-) TimerEvent: {}
+[12.247629] (-) TimerEvent: {}
+[12.347967] (-) TimerEvent: {}
+[12.448324] (-) TimerEvent: {}
+[12.548682] (-) TimerEvent: {}
+[12.649033] (-) TimerEvent: {}
+[12.749353] (-) TimerEvent: {}
+[12.849689] (-) TimerEvent: {}
+[12.950025] (-) TimerEvent: {}
+[13.050354] (-) TimerEvent: {}
+[13.150674] (-) TimerEvent: {}
+[13.251008] (-) TimerEvent: {}
+[13.351350] (-) TimerEvent: {}
+[13.451689] (-) TimerEvent: {}
+[13.552049] (-) TimerEvent: {}
+[13.652436] (-) TimerEvent: {}
+[13.752751] (-) TimerEvent: {}
+[13.853092] (-) TimerEvent: {}
+[13.953431] (-) TimerEvent: {}
+[14.053768] (-) TimerEvent: {}
+[14.154119] (-) TimerEvent: {}
+[14.254499] (-) TimerEvent: {}
+[14.354834] (-) TimerEvent: {}
+[14.455175] (-) TimerEvent: {}
+[14.555509] (-) TimerEvent: {}
+[14.655832] (-) TimerEvent: {}
+[14.756178] (-) TimerEvent: {}
+[14.856524] (-) TimerEvent: {}
+[14.956858] (-) TimerEvent: {}
+[15.057202] (-) TimerEvent: {}
+[15.157531] (-) TimerEvent: {}
+[15.257862] (-) TimerEvent: {}
+[15.358215] (-) TimerEvent: {}
+[15.458556] (-) TimerEvent: {}
+[15.558882] (-) TimerEvent: {}
+[15.659181] (-) TimerEvent: {}
+[15.759507] (-) TimerEvent: {}
+[15.859833] (-) TimerEvent: {}
+[15.960234] (-) TimerEvent: {}
+[16.060577] (-) TimerEvent: {}
+[16.160908] (-) TimerEvent: {}
+[16.261262] (-) TimerEvent: {}
+[16.361614] (-) TimerEvent: {}
+[16.461961] (-) TimerEvent: {}
+[16.562315] (-) TimerEvent: {}
+[16.662680] (-) TimerEvent: {}
+[16.701225] (mujoco_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mujoco_node\x1b[0m\n'}
+[16.762847] (-) TimerEvent: {}
+[16.863278] (-) TimerEvent: {}
+[16.963714] (-) TimerEvent: {}
+[17.064134] (-) TimerEvent: {}
+[17.164500] (-) TimerEvent: {}
+[17.264863] (-) TimerEvent: {}
+[17.365280] (-) TimerEvent: {}
+[17.447901] (mujoco_ros2) StdoutLine: {'line': b'[100%] Built target mujoco_node\n'}
+[17.465444] (-) TimerEvent: {}
+[17.467713] (mujoco_ros2) CommandEnded: {'returncode': 0}
+[17.469071] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'install'}
+[17.486163] (mujoco_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2'], 'cwd': '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'yahia', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'en_US.UTF-8', 'XDG_SEAT': 'seat0', 'STARSHIP_SHELL': 'fish', 'SSH_AGENT_PID': '1660', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/yahia/mujoco/lib::/home/yahia/mujoco/bin', 'HOME': '/home/yahia', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '6e0e5d7c34f443afaf422a89a6b6d567', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/yahia/.gtkrc:/home/yahia/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'en_US.UTF-8', 'nvm_current_version': 'v22.20.0', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '1493', 'SYSTEMD_EXEC_PID': '2055', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'NVM_DIR': '/home/yahia/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yahia', 'WINDOWID': '58720269', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:15844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.konsole@autostart.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/yahia/.gtkrc-2.0:/home/yahia/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/home/yahia/.local/bin:/home/yahia/.local/share/nvm/v22.20.0/bin:/home/yahia/.local/bin:/home/yahia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/YLT:@/tmp/.ICE-unix/1789,unix/YLT:/tmp/.ICE-unix/1789', 'INVOCATION_ID': '61e25599af5248b0a4461a9e58d859fb', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'Dracula-cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_xTcGbB', 'MUJOCO_PY_MUJOCO_PATH': '/home/yahia/mujoco', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_evZSjq', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-Zg76lQu3NmMo/agent.1534', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/fish', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.79', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/yahia/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'STARSHIP_SESSION_KEY': '2762218463385181', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.500418] (mujoco_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.500807] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node\n'}
+[17.508513] (mujoco_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node" to ""\n'}
+[17.508908] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/launch\n'}
+[17.509124] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/launch/example.py\n'}
+[17.509401] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model\n'}
+[17.509656] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/scene.xml\n'}
+[17.510344] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/two_link_planar.xml\n'}
+[17.511163] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2\n'}
+[17.511584] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2\n'}
+[17.511884] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.sh\n'}
+[17.512488] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.dsv\n'}
+[17.512794] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/path.sh\n'}
+[17.513567] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/path.dsv\n'}
+[17.513906] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.bash\n'}
+[17.514154] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.sh\n'}
+[17.514362] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.zsh\n'}
+[17.514555] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.dsv\n'}
+[17.514736] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/package.dsv\n'}
+[17.515006] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/packages/mujoco_ros2\n'}
+[17.515313] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config.cmake\n'}
+[17.515570] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config-version.cmake\n'}
+[17.515750] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/package.xml\n'}
+[17.519560] (mujoco_ros2) CommandEnded: {'returncode': 0}
+[17.553927] (mujoco_ros2) JobEnded: {'identifier': 'mujoco_ros2', 'rc': 0}
+[17.555228] (-) EventReactorShutdown: {}

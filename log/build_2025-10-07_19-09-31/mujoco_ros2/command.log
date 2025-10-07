@@ -1,0 +1,2 @@
+Invoking command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yahia/Documents/GitHub/robotics/src/mujoco_ros2 -DCMAKE_INSTALL_PREFIX=/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2
+Invoked command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yahia/Documents/GitHub/robotics/src/mujoco_ros2 -DCMAKE_INSTALL_PREFIX=/home/yahia/Documents/GitHub/robotics/install/mujoco_ros2
