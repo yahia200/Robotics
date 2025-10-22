@@ -1,0 +1,2 @@
+[console_scripts]
+simple_move_node = mujoco_arm_demo.simple_move_node:main

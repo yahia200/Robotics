@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/entry_points.txt
+writing requirements to ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/requires.txt
+writing top-level names to ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/top_level.txt
+reading manifest file '../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/share/mujoco_arm_demo/launch
+copying mujoco_arm_demo/launch/demo.launch.py -> /home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/share/mujoco_arm_demo/launch
+running install_egg_info
+removing '/home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/lib/python3.12/site-packages/mujoco_arm_demo-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info to /home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/lib/python3.12/site-packages/mujoco_arm_demo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing simple_move_node script to /home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/lib/mujoco_arm_demo
+writing list of installed files to '/home/yahia/Documents/GitHub/robotics/build/mujoco_arm_demo/install.log'

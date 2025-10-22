@@ -1,0 +1,21 @@
+[1.437s] Invoking command in '/home/yahia/Documents/GitHub/robotics/src/mujoco_arm_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yahia/Documents/GitHub/robotics/build/mujoco_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mujoco_arm_demo build --build-base /home/yahia/Documents/GitHub/robotics/build/mujoco_arm_demo/build install --record /home/yahia/Documents/GitHub/robotics/build/mujoco_arm_demo/install.log --single-version-externally-managed install_data
+[1.925s] running egg_info
+[1.960s] writing ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/PKG-INFO
+[1.960s] writing dependency_links to ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/dependency_links.txt
+[1.961s] writing entry points to ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/entry_points.txt
+[1.961s] writing requirements to ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/requires.txt
+[1.961s] writing top-level names to ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/top_level.txt
+[2.030s] reading manifest file '../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/SOURCES.txt'
+[2.031s] writing manifest file '../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info/SOURCES.txt'
+[2.031s] running build
+[2.031s] running build_py
+[2.032s] running install
+[2.042s] running install_lib
+[2.076s] running install_data
+[2.077s] running install_egg_info
+[2.110s] removing '/home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/lib/python3.12/site-packages/mujoco_arm_demo-0.0.0-py3.12.egg-info' (and everything under it)
+[2.110s] Copying ../../build/mujoco_arm_demo/mujoco_arm_demo.egg-info to /home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/lib/python3.12/site-packages/mujoco_arm_demo-0.0.0-py3.12.egg-info
+[2.112s] running install_scripts
+[2.353s] Installing simple_move_node script to /home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/lib/mujoco_arm_demo
+[2.354s] writing list of installed files to '/home/yahia/Documents/GitHub/robotics/build/mujoco_arm_demo/install.log'
+[2.406s] Invoked command in '/home/yahia/Documents/GitHub/robotics/src/mujoco_arm_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yahia/Documents/GitHub/robotics/build/mujoco_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mujoco_arm_demo build --build-base /home/yahia/Documents/GitHub/robotics/build/mujoco_arm_demo/build install --record /home/yahia/Documents/GitHub/robotics/build/mujoco_arm_demo/install.log --single-version-externally-managed install_data
