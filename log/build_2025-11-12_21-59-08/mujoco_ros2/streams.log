@@ -1,0 +1,52 @@
+[0.029s] Invoking command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2 -- -j8 -l8
+[0.399s] [ 33%] [32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o[0m
+[0.401s] [ 66%] [32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o[0m
+[11.187s] [100%] [32m[1mLinking CXX executable mujoco_node[0m
+[11.724s] [100%] Built target mujoco_node
+[11.739s] Invoked command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2 -- -j8 -l8
+[11.754s] Invoking command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2
+[11.764s] -- Install configuration: ""
+[11.766s] -- Execute custom install script
+[11.767s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node
+[11.769s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/launch/example.py
+[11.770s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_link.stl
+[11.771s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_link_collision.stl
+[11.772s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_link_motor.stl
+[11.772s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist.stl
+[11.773s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_collision.stl
+[11.774s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_extension.stl
+[11.774s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_extension_collision.stl
+[11.775s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_extension_motor.stl
+[11.775s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_motor.stl
+[11.776s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_moving_finger.stl
+[11.777s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_moving_finger_collision_1.stl
+[11.777s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_moving_finger_collision_2.stl
+[11.778s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_static_finger.stl
+[11.779s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_static_finger_collision_1.stl
+[11.779s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_static_finger_collision_2.stl
+[11.780s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_static_finger_motor.stl
+[11.780s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_rotation.stl
+[11.781s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_rotation_collision.stl
+[11.781s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_rotation_motor.stl
+[11.782s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_to_elbow.stl
+[11.783s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_to_elbow_collision.stl
+[11.783s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_to_elbow_motor.stl
+[11.784s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/low_cost_robot_arm.xml
+[11.785s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/scene.xml
+[11.785s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/model/two_link_planar.xml
+[11.786s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2
+[11.786s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2
+[11.787s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.sh
+[11.788s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.dsv
+[11.789s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/path.sh
+[11.789s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/environment/path.dsv
+[11.790s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.bash
+[11.791s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.sh
+[11.791s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.zsh
+[11.792s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/local_setup.dsv
+[11.792s] -- Symlinking: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/package.dsv
+[11.805s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/ament_index/resource_index/packages/mujoco_ros2
+[11.806s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config.cmake
+[11.806s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config-version.cmake
+[11.807s] -- Up-to-date symlink: /home/yahia/Documents/GitHub/robotics/install/mujoco_ros2/share/mujoco_ros2/package.xml
+[11.809s] Invoked command in '/home/yahia/Documents/GitHub/robotics/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahia/Documents/GitHub/robotics/install/mujoco_arm_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yahia/Documents/GitHub/robotics/build/mujoco_ros2
